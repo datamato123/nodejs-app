@@ -59,7 +59,7 @@ app.get('*', (req, res) => {
   res.status(404).send("Not Found");
 });
 
-// Listen and serve.
+// Listen and serve..
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`App started on PORT ${PORT}`);
